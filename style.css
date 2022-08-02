@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+}
+
+/*parent flex container*/
+.container{
+    width: 350px;
+    background-color: rebeccapurple;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+
+}
+
+.item{
+    background-color: #ff0012;
+    height: 50px;
+    width: 100%;
+    /*flex-grow: 0.5;*/
+}
+
+.big{
+    /*flex-grow: 2;*/
+}
+
+.small{
+    /*flex-shrink: 0.5;*/
+}
+
+.item:nth-child(odd){
+    background-color: orange;
+}
